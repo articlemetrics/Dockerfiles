@@ -22,4 +22,6 @@ RUN chmod -R 755 /var/run/couchdb
 RUN mkdir /etc/service/couchdb
 ADD runit/couchdb.sh /etc/service/couchdb/run
 
+VOLUME ["/var/log/couchdb", "/var/lib/couchdb", "/etc/couchdb"]
+
 EXPOSE  5984
