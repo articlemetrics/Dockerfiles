@@ -3,6 +3,7 @@
 This repository contains Dockerfiles for Docker containers needed by the [Lagotto](https://github.com/articlemetrics/lagotto) software:
 
 * CouchDB
+* Percona Server
 
 The above repos are [available as automatic build repositories](https://registry.hub.docker.com/repos/lagotto/) in the Docker Hub.
 
@@ -13,4 +14,4 @@ Please open a Github issue, or go to the [Lagotto Support Forum](http://discuss.
 Martin Fenner <mfenner@plos.org>
 
 ## License
-Released under the [APACHE 2.0 License](https://github.com/articlemetrics/Dockerfiles/blob/master/LICENSE.md).
+Released under the license of the respective software package, as noted in the README for that repo.
