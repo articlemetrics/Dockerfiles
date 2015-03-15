@@ -1,2 +1,3 @@
 #!/bin/sh
-exec /sbin/setuser mysql /usr/bin/mysqld_safe >>/var/log/mysql_exec.log 2>&1
+exec 2>&1
+exec /usr/bin/mysqld_safe --user=mysql
